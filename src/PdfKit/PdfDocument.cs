@@ -120,9 +120,11 @@ namespace PdfKit
             return this;
         }
 
-        void AddContent(string content)
+        PdfDocument AddContent(string data)
         {
+            _currentPage.Write(data);
 
+            return this;
         }
 
         class RootRef

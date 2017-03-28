@@ -16,6 +16,11 @@ namespace PdfKit
         {
 
         }
+
+        public void Write(string data)
+        {
+
+        }
     }
 
     public class PdfPageMargins
